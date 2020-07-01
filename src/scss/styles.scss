@@ -55,6 +55,15 @@ body {
         transform: translateY(-50%) translateX(-50%) rotate(90deg);
       }
     }
+    .animate__animated.animate__fadeInDown.one {
+      --animate-duration: 4s;
+    }
+    .animate__animated.animate__fadeInDown.two {
+      --animate-duration: 3s;
+    }
+    .animate__animated.animate__fadeInDown.three {
+      --animate-duration: 2s;
+    }
   }
   /* new navi css*/
   nav {
@@ -149,6 +158,9 @@ main {
       letter-spacing: 0;
       width: 100%;
       max-width: 1030px;
+      .animate__animated.animate__fadeIn {
+        --animate-duration: 10s;
+      }
     }
   }
 }
