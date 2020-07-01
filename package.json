@@ -1,0 +1,35 @@
+{
+  "name": "market",
+  "version": "1.0.0",
+  "description": "market webpage layout",
+  "main": "index.js",
+  "repository": "https://github.com/Trapa-Eureka/market.git",
+  "author": "JINHO SON <1982gaya@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/register": "^7.10.3",
+    "babelify": "^10.0.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-bro": "^2.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1",
+    "uglify-js": "^3.10.0"
+  },
+  "scripts": {
+    "dev": "gulp dev",
+    "dist": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "browserslist": {
+    "browsers": [
+      "last 2 versions"
+    ]
+  }
+}
